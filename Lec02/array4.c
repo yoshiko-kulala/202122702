@@ -10,7 +10,7 @@ int main(void)
 	}
 
 	for(i = 0; i < 5; i++)
-		vb[i]=va[4-i];//vb‚Ìi”Ô–Ú‚Éva‚Ì4-i”Ô–Ú‚ð‘ã“ü
+		vb[i]=va[4-i];//vbã®iç•ªç›®ã«vaã®4-iç•ªç›®ã‚’ä»£å…¥
 
 	puts(" va vb");
 	puts("-------");
