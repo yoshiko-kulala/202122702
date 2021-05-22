@@ -1,9 +1,9 @@
 #include <stdio.h>
 /*---要素数noの配列v2の全要素を2倍して逆順に配列v1に格納 ---*/
 
-void intary_rcpy(int *v2,int *v1,int no){
+void intary_rcpy(int *v1,const int v2[],int no){
     for(int i=0;i<no;i++){
-        v2[i]=v1[no-1-i]*2;
+        v1[i]=v2[no-1-i]*2;//2倍して逆順に代入
     }
 }  
 

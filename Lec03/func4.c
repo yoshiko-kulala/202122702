@@ -6,7 +6,7 @@ int sqr(int x){
 /* ----四乗値を返す関数pow4 ---*/
 
 pow4(no){
-    return sqr(no)*sqr(no);
+    return sqr(no)*sqr(no);//^2の^2で^4を返す
 }
 
 

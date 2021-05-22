@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int cube(no){
-    return no*no*no;
+    return no*no*no;,//三乗を返す
 }
 
 int main(void){

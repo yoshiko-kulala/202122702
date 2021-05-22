@@ -4,7 +4,7 @@
 
 int max_of(int *vc,int no){
     for(int i=1;i<no;i++){
-        if(vc[0]<vc[i])vc[0]=vc[i];
+        if(vc[0]<vc[i])vc[0]=vc[i];//1~no-1までを0と評価して大きいものを残す
     }
     return vc[0];
 }

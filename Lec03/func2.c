@@ -6,7 +6,7 @@ int max5(int na,int nb,int nc,int nd,int ne){
     if(na<nc)na=nc;
     if(na<nd)na=nd;
     if(na<ne)na=ne;
-    return na;
+    return na;//かならずnaが最大になるのでnaを出力
 }  
 
 
